@@ -1,0 +1,56 @@
+# -------------------------
+# OS and system files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# -------------------------
+# Backend
+# -------------------------
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+
+**/*.sqlite3
+**/*.egg-info/
+**/dist/
+**/build/
+**/pip-wheel-metadata/
+
+# -------------------------
+# Virtual environments
+# -------------------------
+**/*.env
+**/env/
+**/venv/
+**/ENV/
+**/.venv/
+!**/*.env.example
+
+# -------------------------
+# IDEs
+# -------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+**/*.code-workspace
+
+# Keep VSCode extensions.json
+!.vscode/extensions.json
+
+# -------------------------
+# Misc
+# -------------------------
+*.bak
+*.tmp
+*.swp
+
+# -------------------------
+# MTProto Sessions
+# -------------------------
+*.session

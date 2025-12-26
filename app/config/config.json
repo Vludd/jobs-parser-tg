@@ -1,0 +1,39 @@
+{
+  "targets": {
+    "channels": [],
+    "bots": []
+  },
+  "filter": {
+    "min_score": 2,
+    "whitelist": {
+      "python": 3,
+      "fastapi": 3,
+      "backend": 2,
+      "api": 1
+    },
+    "blacklist": ["php", "javascript", "react", "vue", "node"],
+    "techstack": {
+      "python": ["python"],
+      "backend": ["backend", "back-end"],
+      "golang": ["go", "golang"],
+      "dotnet": [".net", "net framework"],
+      "fastapi": ["fastapi", "fast api"],
+      "django": ["django", "drf"],
+      "restapi": ["rest api", "restapi", "http", "api"],
+      "postgresql": ["postgresql", "postgres"],
+      "mysql": ["mysql"],
+      "redis": ["redis"],
+      "docker": ["docker"],
+      "kafka": ["kafka"],
+      "rabbitmq": ["rabbitmq"],
+      "celery": ["celery"],
+      "sqlalchemy": ["sqlalchemy"],
+      "django orm": ["django orm"],
+      "git": ["git", "gitlab", "github"],
+      "linux": ["linux"],
+      "nginx": ["nginx"],
+      "gunicorn": ["gunicorn"],
+      "uvicorn": ["uvicorn"]
+    }
+  }
+}
