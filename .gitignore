@@ -53,4 +53,4 @@ desktop.ini
 # -------------------------
 # MTProto Sessions
 # -------------------------
-*.session
+*.session*
